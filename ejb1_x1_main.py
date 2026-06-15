@@ -61,7 +61,7 @@ def find_largest_word(text):
             palabra_actual = ''
         else:
             palabra_actual = f'{palabra_actual}{i}'
-    
+     
     # Al final se hace una ultima comprobacíon ya que si no hay salto o espacio, no entrará dentro del 
     # if else previo y el bucle terminó, pero debe valorarse esa ultima palabra generada una vez limpiada,
     # con la previa para determinar si es la más larga o no.
